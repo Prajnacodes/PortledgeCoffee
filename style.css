@@ -1,0 +1,154 @@
+body {
+    background-color: slategray;
+    /* "Department of Coffee and Social Affairs" by Michael Dales is licensed under CC BY-NC 2.0 */
+    background-image: url(images/departmentOfCoffee.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 120px;
+}
+
+nav {
+    background-color: rgba(126, 206, 230, 0.377);
+    min-height: 45px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+/* compound selector - target only links inside of the nav */
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+main {
+    min-height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+main h1 {
+    font-size: 85px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px rgb(238, 134, 70);
+}
+
+
+main h2 {
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px rgb(238, 134, 70);
+}
+
+main p {
+    font-size: 18px;
+    color: rgb(190, 149, 124);
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 32px;
+}
+
+/* The styling to my button that goes to nowhere
+.myButton {
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid black;
+    background-color: rgb(0, 148, 148);
+    color: blueviolet;
+    border-radius: 10% 30% 50% 70%;
+} */
+
+.map {
+    text-align: center;
+    margin-top: 32px;
+}
+
+footer {
+    background-color: rgba(126, 206, 230, 0.377);
+    height: 75px;
+}
+
+footer p {
+    color: whitesmoke;
+    text-align: center;
+    padding: 16px;
+}
+
+.logoImage {
+    height: 118px;
+}
+
+.contact {
+    background-color: rgba(169, 189, 196, 0.791);
+    text-align: center;
+    width: 350px;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.email {
+    background-color: rgba(169, 189, 196, 0.791);
+    width: 350px;
+    text-align: center;
+    min-height: 100px;
+    display: block;
+    margin-top: 50px;
+}
+
+.email a {
+    color: rgb(71, 71, 112);
+    text-decoration: underline;
+}
+
+.phone {
+    background-color: rgba(169, 189, 196, 0.791);
+    width: 350px;
+    text-align: center;
+    min-height: 100px;
+    margin-top: 50px;
+}
+
+.open {
+    background-color: rgba(169, 189, 196, 0.791);
+    width: 350px;
+    min-height: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.open p {
+    line-height: 5px;
+}
